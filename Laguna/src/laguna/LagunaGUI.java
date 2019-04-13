@@ -1,6 +1,5 @@
 package laguna;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -15,7 +14,6 @@ import javax.swing.JComboBox;
 import javax.swing.JButton;
 import javax.swing.DefaultComboBoxModel;
 
-import java.awt.FlowLayout;
 import java.awt.CardLayout;
 
 import javax.swing.JTextArea;
@@ -224,6 +222,9 @@ public class LagunaGUI extends JFrame {
 		}
 		return lblZanr;
 	}
+	
+	
+	@SuppressWarnings("unchecked")
 	private JComboBox getComboBox() {
 		if (comboBox == null) {
 			comboBox = new JComboBox();
